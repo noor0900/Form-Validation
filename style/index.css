@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #43434362 0%, rgba(0, 0, 0, 0.37) 100%),
+    url(../WB1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  }
+  #myForm {
+    width: 300px; 
+    padding: 20px;
+    /* border: 1px solid #2d1919; */
+    background-color: rgba(128, 128, 128, 0.596);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.598);
+    border-radius: 10px;
+  }
+  #myForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #myForm input[type="text"],
+  #myForm input[type="email"],
+  #myForm input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  #myForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf4fb4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-style: bold;
+  }
+  #myForm button:hover {
+    background-color: #45a049;
+    
+  }
+  #myForm p {
+    text-align: center;
+  }
+  #myForm p a {
+    color: #333333;
+    text-decoration: none;
+  }
+  #myForm p a:hover {
+    text-decoration: underline;
+  }
+  #myForm h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  

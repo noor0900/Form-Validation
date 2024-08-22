@@ -16,7 +16,7 @@ body {
   text-align: center;
   margin: 250px auto;
   font-size: 70px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: transparent;
   text-shadow: 0px 0px 20px rgba(255, 0, 0, 0.457),
     0px 0px 10px rgba(255, 0, 0, 0.457), 0px 0px 10px rgba(255, 0, 0, 0.457);
